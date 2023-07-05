@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@600&display=swap");
+
+.navbar {
+  display: flex;
+  background: #ffcc26;
+  padding: 0px 80px;
+  justify-content: end;
+}
+.navbar_item {
+  font-family: Anek Telugu;
+  font-weight: 600;
+  color: #414141;
+  text-transform: uppercase;
+  font-size: 32px;
+}
+@media all and (max-width: 900px) {
+  .navbar_item {
+    font-size: 27px;
+  }
+}
+@media all and (max-width: 651px) {
+  .navbar_item {
+    font-size: 23px;
+  }
+  .navbar {
+    padding: 0px 60px;
+  }
+}
+@media all and (max-width: 451px) {
+  .navbar_item {
+    font-size: 20px;
+  }
+  .navbar {
+    padding: 0px 50px;
+  }
+}
+@media all and (max-width: 401px) {
+  .navbar_item {
+    font-size: 18px;
+  }
+  .navbar {
+    padding: 0px 35px;
+  }
+}
+@media all and (max-width: 321px) {
+  .navbar_item {
+    font-size: 16px;
+  }
+  .navbar {
+    padding: 0px 25px;
+  }
+}
